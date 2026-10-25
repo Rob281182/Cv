@@ -103,7 +103,7 @@ r.font.size = Pt(11.5)
 r.font.color.rgb = GREY
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = p.add_run("Wishart QLD 4122  •  0402 496 428  •  robert@heideman.com.au  •  Current Australian driver licence")
+r = p.add_run("Wishart QLD 4122  •  0402 496 428  •  robert@heideman.com.au  •  Driver licence  •  Current Blue Card")
 r.font.size = Pt(10)
 
 # ---------- Profile ----------
@@ -190,7 +190,7 @@ bullet("Relay For Life participant (2009–2012); Australian Red Cross door-knoc
 
 # ---------- Other ----------
 heading("Other Information")
-bullet(" willing to obtain a Queensland Blue Card (Working with Children Check) straight away.", "Working with Children:")
+bullet(" current Queensland Blue Card (held a Working with Children Check for 10+ years) and current NDIS Worker Screening Check (Yellow Card).", "Screening checks:")
 bullet(" English (native), Swedish and Norwegian (proficient).", "Languages:")
 bullet(" Microsoft Word, Excel, Outlook and PowerPoint; Fusion 360; HTML and CSS.", "Computer skills:")
 bullet(" road, mountain, track and triathlon cycling. I've completed Ironman Melbourne, the 3 Peaks Challenge "
