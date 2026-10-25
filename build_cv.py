@@ -156,7 +156,7 @@ job("Volunteer Mechanic – Great Victorian Bike Ride", "Warrandyte High School,
     "Registered mechanic for the school's student team over eight years, keeping students' bikes running on a multi-day ride.",
     "Worked alongside students and teachers, keeping young riders safe and on the road.",
 ])
-job("Volunteer Mechanic and Support Crew", "Solo world-record attempt: first and fastest woman to cycle around Australia", "")
+job("Volunteer Mechanic and Support Crew – Lesa Ashford", "Solo world-record attempt: first and fastest woman to cycle around Australia", "2023")
 
 # ---------- Professional experience ----------
 heading("Professional Experience – Prosthetics and Orthotics")
@@ -174,9 +174,6 @@ job("Senior Orthotic Technician and Head of Digital Design", "Queensland Orthoti
 job("Senior Clinical Orthotist and Technician", "Orthotic Motion Pty Ltd, Geelong VIC", "Oct 2018 – Mar 2023")
 job("Prosthetist-Orthotist and Technician", "Drevelin Ortopedi AB, Bergen, Norway", "Aug 2017 – Aug 2018")
 job("Prosthetist-Orthotist and Technician", "Optopedia Ortopediteknisk AS, Stockholm, Sweden", "Feb 2016 – Aug 2017")
-job("Clinical Placement – Prosthetics", "Veterans International Cambodia, Phnom Penh", "Feb 2015 – Apr 2015", [
-    "Built and fitted low-cost prostheses with limited resources, finding practical solutions with whatever was available.",
-])
 
 # ---------- Education ----------
 heading("Education and Training")
@@ -186,6 +183,7 @@ bullet(" founding member of the Digital Limb Collective; participant at the 2016
 
 # ---------- Community ----------
 heading("Community and Volunteering")
+bullet("Veterans International Cambodia, Phnom Penh (2015): volunteered building and fitting low-cost prostheses with limited resources.")
 bullet("Regular volunteer at Edgar's Mission animal sanctuary, Lancefield VIC.")
 bullet("Oxfam Trailwalker, Taupō NZ (2013): our team raised $15,000.")
 bullet("Relay For Life participant (2009–2012); Australian Red Cross door-knock appeal volunteer (2009–2013).")
