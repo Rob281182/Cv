@@ -11,7 +11,7 @@ GREY = RGBColor(0x55, 0x55, 0x55)
 
 doc = Document()
 for s in doc.sections:
-    s.top_margin = s.bottom_margin = Cm(1.3)
+    s.top_margin = s.bottom_margin = Cm(1.1)
     s.left_margin = s.right_margin = Cm(1.9)
 
 st = doc.styles["Normal"]
@@ -109,7 +109,7 @@ r.font.size = Pt(10)
 # ---------- Profile ----------
 heading("Profile")
 para(
-    "Frame builder and bicycle mechanic with 10 years of hands-on experience. I founded Heiden Cycle Works in 2020, "
+    "Frame builder and bicycle mechanic with more than 15 years of hands-on experience, starting in a Melbourne bike shop in 2009. I founded Heiden Cycle Works in 2020, "
     "where I design and build my own frames and service bikes of every kind. Since 2016 I've also been a travelling "
     "tour mechanic with Wide Open Road Cycling. "
     "I love bikes and the people who ride them. I also love teaching people how to fix them. "
@@ -149,6 +149,9 @@ job("Travelling Tour Mechanic", "Wide Open Road Cycling", "2016 – Present (tou
     "Do daily safety checks, servicing and roadside repairs from a mobile workshop, often with limited tools and parts.",
     "Friendly, helpful point of contact for riders of all abilities, keeping them safe and riding.",
 ])
+job("Bicycle Mechanic", "The Ride Cycles, Kew VIC", "2009 – 2015", [
+    "Workshop mechanic in a busy retail bike shop: servicing, repairs, new bike builds and customer service.",
+])
 job("Volunteer Mechanic – Great Victorian Bike Ride", "Warrandyte High School, VIC", "2008 – 2015", [
     "Registered mechanic for the school's student team over eight years, keeping students' bikes running on a multi-day ride.",
     "Worked alongside students and teachers, keeping young riders safe and on the road.",
@@ -157,8 +160,7 @@ job("Volunteer Mechanic and Support Crew", "Solo world-record attempt: first and
 
 # ---------- Professional experience ----------
 heading("Professional Experience – Prosthetics and Orthotics")
-para("Ten years as a Clinical Prosthetist-Orthotist and technician in Australia, Sweden and Norway, "
-     "designing, building and fitting custom devices by hand in hands-on workshop settings.", italic=True, after=3)
+para("Ten years as a Prosthetist-Orthotist and technician in Australia, Sweden and Norway, building custom devices by hand.", italic=True, after=3)
 job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026", [
     "Senior orthotic role delivering custom orthoses made with digital scanning and design.",
 ])

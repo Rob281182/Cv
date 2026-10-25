@@ -66,7 +66,7 @@ body = [
     "as I can remember, and so has sharing what I know about them. A program where young people build their own bike, "
     "learn real skills and ride away proud of what they've made is exactly the kind of work I'd love to be part of.",
 
-    "I've worked as a bike mechanic for 10 years. In 2020 I founded Heiden Cycle Works, where I design and build custom "
+    "I've worked as a bike mechanic for more than 15 years, starting at The Ride Cycles in Kew in 2009. In 2020 I founded Heiden Cycle Works, where I design and build custom "
     "frames from carbon tubes and 3D-printed lugs, and build and maintain all kinds of bikes, from budget commuters to "
     "high-end race bikes. Since 2016 I've also been a travelling tour mechanic with Wide Open Road Cycling, keeping "
     "every bike on the tour safe and running, often from a mobile kit at the side of the road. Inspecting a bike, "
