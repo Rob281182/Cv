@@ -200,7 +200,7 @@ bullet(" road, mountain, track and triathlon cycling. I've completed Ironman Mel
 heading("References")
 t = doc.add_table(rows=1, cols=2)
 refs = [
-    ("Clare Holdsworth", "WOR Cycle Tours (Wide Open Road Cycling)", "wideopenroadcycletours@gmail.com"),
+    ("Clare Holdsworth", "Owner and Tour Operator, Wide Open Road Cycle Tours", "wideopenroadcycletours@gmail.com"),
     ("Liz Heagney", "Office Manager, Queensland Orthotic Lab Pty Ltd", "0405 328 472  •  Lizheagney38@gmail.com"),
 ]
 for cell, (n, role, contact) in zip(t.rows[0].cells, refs):
