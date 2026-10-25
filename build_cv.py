@@ -109,13 +109,14 @@ r.font.size = Pt(10)
 # ---------- Profile ----------
 heading("Profile")
 para(
-    "Bicycle mechanic with 10 years of hands-on experience, including running my own repair business, "
-    "Heiden Cycle Works, since 2020 and working as a mechanic with Wide Open Road Cycling since 2016. "
+    "Frame builder and bicycle mechanic with 10 years of hands-on experience. I founded Heiden Cycle Works in 2020, "
+    "where I design and build my own frames and service bikes of every kind. Since 2016 I've also been a travelling "
+    "tour mechanic with Wide Open Road Cycling. "
     "I love bikes and the people who ride them. I also love teaching people how to fix them. "
     "Alongside the bikes, I have a ten-year career as a Prosthetist-Orthotist, "
-    "where I've run workshops, built a new department from scratch and mentored junior technicians. "
+    "where I've run workshops, fabricated devices by hand and mentored junior technicians. "
     "Every day in that job means explaining technical things in plain, encouraging language. "
-    "I'm keen to bring my mechanical skills, workshop experience and passion for sharing knowledge "
+    "I'm keen to bring my building and mechanical skills, workshop experience and passion for sharing knowledge "
     "to the PUSH! team and help young people build bikes, skills and confidence.",
     after=4,
 )
@@ -123,29 +124,29 @@ para(
 # ---------- Key skills ----------
 heading("Key Skills")
 bullet(" full servicing, diagnosis and repair of road, mountain, hybrid, kids' and e-bikes; complete bike builds "
-       "from frame up; brakes, gears, drivetrains, wheels, hubs and bearings.", "Bicycle mechanics:")
+       "from the frame up, including custom frame building; brakes, gears, drivetrains, wheels, hubs and bearings.", "Bicycle mechanics:")
 bullet(" inspecting and refurbishing second-hand bikes so they're safe and roadworthy, and making the most of "
        "donated and recycled parts.", "Safety checks and refurbishment:")
-bullet(" setting up and running workshops, including tool and equipment upkeep, parts inventory and ordering, "
+bullet(" running workshops, including tool and equipment upkeep, parts inventory and ordering, "
        "workflow and workplace safety.", "Workshop management:")
 bullet(" mentoring junior and new technicians, and breaking complex tasks into simple, achievable steps. "
        "I'm patient, encouraging and good at building confidence.", "Teaching and mentoring:")
 bullet(" friendly, clear communicator. I've worked with clients and families of all ages, "
        "backgrounds and cultures in Australia, Europe and Cambodia.", "Communication:")
-bullet(" design, fabrication and problem-solving, including Fusion 360 CAD and 3D printing (FDM, SLA, SLS). "
+bullet(" carbon frame building, design and problem-solving, including Fusion 360 CAD and 3D printing (FDM, SLA, SLS). "
        "I love inventing, building and improving things.", "Making and fabrication:")
 
 # ---------- Cycling experience ----------
 heading("Bicycle Industry Experience")
-job("Owner / Bicycle Technician", "Heiden Cycle Works, Brisbane QLD", "2020 – Present", [
-    "Run my own bike servicing and repair business, covering everything from quick fixes to full overhauls and custom builds.",
-    "Diagnose faults, quote the work and complete repairs to a high safety standard on a wide range of bikes.",
-    "Manage every part of the business: customer service, bookings, sourcing and ordering parts, tool upkeep and accounts.",
-    "Explain repairs to customers and show them simple maintenance they can do themselves.",
+job("Founder / Frame Builder and Bicycle Technician", "Heiden Cycle Works, Brisbane QLD", "2020 – Present", [
+    "Founded the business. I design and build custom bicycle frames from carbon tubes joined with 3D-printed lugs, which I design myself.",
+    "Build, service and repair all kinds of bikes, from entry-level commuters to high-end race bikes.",
+    "Diagnose faults, quote the work and complete repairs to a high safety standard.",
+    "Run every part of the business, including customer service, sourcing and ordering parts, workshop and tool upkeep, and accounts.",
 ])
-job("Bicycle Mechanic", "Wide Open Road Cycling", "2016 – Present", [
-    "Mechanic supporting riders, including bike preparation, pre-ride safety checks and on-the-spot repairs.",
-    "Fix mechanical problems quickly and calmly, often on the road with a mobile tool kit.",
+job("Travelling Tour Mechanic", "Wide Open Road Cycling", "2016 – Present (tours each year)", [
+    "Travel with the group on multi-day cycling tours each year and maintain every bike on the tour.",
+    "Do daily safety checks, servicing and roadside repairs from a mobile workshop, often with limited tools and parts.",
     "Friendly, helpful point of contact for riders of all abilities, keeping them safe and riding.",
 ])
 job("Volunteer Mechanic – Great Victorian Bike Ride", "Warrandyte High School, VIC", "2008 – 2015", [
@@ -158,12 +159,11 @@ job("Volunteer Mechanic and Support Crew", "Solo world-record attempt: first and
 heading("Professional Experience – Prosthetics and Orthotics")
 para("Ten years as a Clinical Prosthetist-Orthotist and technician in Australia, Sweden and Norway, "
      "designing, building and fitting custom devices by hand in hands-on workshop settings.", italic=True, after=3)
-job("Senior Prosthetist/Orthotist", "Princess Alexandra Hospital, Woolloongabba QLD", "May 2025 – Present", [
-    "Manage complex inpatient and outpatient cases as part of a multidisciplinary team, and lead quality assurance projects.",
+job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026", [
+    "Senior orthotic role delivering custom orthoses made with digital scanning and design.",
 ])
-job("Senior Prosthetist/Orthotist", "Amend Rehab Pty Ltd, Eight Mile Plains QLD", "Apr 2024 – Present", [
-    "Set up a new Prosthetics and Orthotics department from scratch, including the workshop, equipment, workflow and digital (CAD/CAM) manufacturing.",
-    "Responsible for assessment, manufacturing, fitting, referrals, NDIS funding and client relationships.",
+job("Senior Prosthetist/Orthotist", "Princess Alexandra Hospital, Woolloongabba QLD", "May 2025 – Mar 2026", [
+    "Manage complex inpatient and outpatient cases as part of a multidisciplinary team, and lead quality assurance projects.",
 ])
 job("Senior Orthotic Technician and Head of Digital Design", "Queensland Orthotic Lab, Capalaba QLD", "Jan 2024 – Present", [
     "Hands-on fabrication in a busy production workshop. I mentor and train junior and new technicians.",
