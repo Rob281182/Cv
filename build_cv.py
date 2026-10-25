@@ -161,6 +161,7 @@ job("Volunteer Mechanic and Support Crew – Lesa Ashford", "Solo world-record a
 # ---------- Professional experience ----------
 heading("Professional Experience – Prosthetics and Orthotics")
 para("Ten years as a Prosthetist-Orthotist and technician in Australia, Sweden and Norway, building custom devices by hand.", italic=True, after=3)
+job("Orthotist", "Roam Orthotics", "Oct 2026 – Present")
 job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026", [
     "Senior orthotic role delivering custom orthoses made with digital scanning and design.",
 ])
