@@ -109,15 +109,12 @@ r.font.size = Pt(10)
 # ---------- Profile ----------
 heading("Profile")
 para(
-    "Frame builder and bicycle mechanic with more than 15 years of hands-on experience, starting in a Melbourne bike shop in 2009. I founded Heiden Cycle Works in 2020, "
-    "where I design and build my own frames and service bikes of every kind. Since 2016 I've also been a travelling "
-    "tour mechanic with Wide Open Road Cycling. "
-    "I love bikes and the people who ride them. I also love teaching people how to fix them. "
-    "Alongside the bikes, I have a ten-year career as a Prosthetist-Orthotist, "
-    "where I've run workshops, fabricated devices by hand and mentored junior technicians. "
-    "Every day in that job means explaining technical things in plain, encouraging language. "
-    "I'm keen to bring my building and mechanical skills, workshop experience and passion for sharing knowledge "
-    "to the PUSH! team and help young people build bikes, skills and confidence.",
+    "I've been fixing bikes since 2009, when I started as a mechanic at The Ride Cycles in Kew, and I've never really stopped. "
+    "Since 2016 I've travelled each year as a tour mechanic with Wide Open Road Cycling, and in 2020 I founded Heiden Cycle Works, "
+    "where I design and build my own carbon frames and look after bikes of every kind. Alongside the bikes, I've spent ten years "
+    "as a Prosthetist-Orthotist, a career built on making things by hand, running workshops, mentoring junior technicians and "
+    "explaining technical ideas in a way people can understand. What I enjoy most is passing on what I know, and I'd love to "
+    "bring that to PUSH!, helping young people build their own bikes and the confidence that comes with it.",
     after=4,
 )
 
