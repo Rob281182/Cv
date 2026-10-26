@@ -163,7 +163,10 @@ job("Sole Owner / Principal Orthotist", "Roam Orthotics", "Oct 2026 – Present"
     "Fit and implement devices, train participants and carers in their use, and provide reviews and adjustments.",
     "Run the whole practice: referrals, bookings, NDIS and funding reports, quotes and accounts.",
 ])
-job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026")
+job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026", [
+    "Helped young people with disabilities achieve their goals and greater independence through custom orthotic care.",
+    "Held senior responsibilities, including mentoring and supporting other clinicians.",
+])
 job("Senior Prosthetist/Orthotist", "Princess Alexandra Hospital, Woolloongabba QLD", "May 2025 – Mar 2026", [
     "Manage complex inpatient and outpatient cases as part of a multidisciplinary team, and lead quality assurance projects.",
 ])
@@ -179,11 +182,11 @@ job("Prosthetist-Orthotist and Technician", "Optopedia Ortopediteknisk AS, Stock
 heading("Education and Training")
 job("Bachelor of Health Science / Master of Clinical Prosthetics and Orthotics", "La Trobe University, Bundoora VIC", "2012 – 2015")
 job("Cultural Exchange Program", "Jönköping University, Sweden", "Jan 2014 – Jul 2014")
-bullet(" founding member of the Digital Limb Collective; participant at the 2016 ISPO European Congress.", "Professional development:")
+bullet(" founding member, Digital Limb Collective; 2016 ISPO European Congress.", "Professional development:")
 
 # ---------- Community ----------
 heading("Community and Volunteering")
-bullet("Veterans International Cambodia, Phnom Penh (2015): volunteered building and fitting low-cost prostheses with limited resources.")
+bullet("Veterans International Cambodia, Phnom Penh (2015): built and fitted low-cost prostheses with limited resources.")
 bullet("Regular volunteer at Edgar's Mission animal sanctuary, Lancefield VIC.")
 bullet("Oxfam Trailwalker, Taupō NZ (2013): our team raised $15,000.")
 bullet("Relay For Life participant (2009–2012); Australian Red Cross door-knock appeal volunteer (2009–2013).")

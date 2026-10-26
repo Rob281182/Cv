@@ -80,15 +80,18 @@ body = [
     "Clinical work has also taught me to explain technical things in plain, encouraging language to people of all "
     "ages and backgrounds, and to be patient while someone builds confidence in a new skill.",
 
-    "I'm not a youth worker, but I really enjoy being around young people. For eight years I was the volunteer mechanic "
+    "I'm not a youth worker, but I really enjoy being around young people. Most recently, as a Senior Orthotist at "
+    "Ability Made, my work focused on helping young people with disabilities achieve their goals and greater "
+    "independence, and I mentored other clinicians. For eight years I was also the volunteer mechanic "
     "for Warrandyte High School's team on the Great Victorian Bike Ride, working alongside students and teachers to "
     "keep everyone riding. Whether it's showing someone how to tighten their first brake cable or helping them build "
     "a whole bike, I'd love to help young people feel capable and included. I'd also enjoy working with your youth "
     "development team to turn bike-building into fun, hands-on learning sessions.",
 
     "I hold a current Queensland Blue Card (I've had a Working with Children Check for over 10 years), a current NDIS "
-    "Worker Screening Check (Yellow Card) and a current Australian driver licence. I can commit three days a week to "
-    "PUSH! and could start from 22 November.",
+    "Worker Screening Check (Yellow Card) and a current Australian driver licence. I'm looking for a part-time role "
+    "and can commit three days a week to PUSH!, alongside a small orthotics practice I run one to two days a week. "
+    "I could start from 22 November.",
 
     "Thank you for considering my application. I'd welcome the chance to chat about how I could contribute to PUSH!, "
     "and I'd be happy to bring along one of my frames to show you what I build.",
