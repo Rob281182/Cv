@@ -121,13 +121,13 @@ para(
 
 # ---------- Key skills ----------
 heading("Key Skills")
-bullet(" full servicing, diagnosis and repair of road, mountain, hybrid, kids' and e-bikes; complete bike builds "
-       "from the frame up, including custom frame building; brakes, gears, drivetrains, wheels, hubs and bearings.", "Bicycle mechanics:")
+bullet(" full servicing, diagnosis and repair of road, mountain, hybrid, kids' and e-bikes; complete builds from the "
+       "frame up; wheel truing, brake and gear adjustment, drivetrain servicing, cable replacement, hubs and bearings.", "Bicycle mechanics:")
 bullet(" creating and adapting bikes for people with disabilities, drawing on my orthotics background.", "Adaptive bikes:")
 bullet(" inspecting and refurbishing second-hand bikes so they're safe and roadworthy, and making the most of "
        "donated and recycled parts.", "Safety checks and refurbishment:")
-bullet(" running workshops, including tool and equipment upkeep, parts inventory and ordering, "
-       "workflow and workplace safety.", "Workshop management:")
+bullet(" running fixed and mobile workshops on my own, including tool and equipment upkeep, parts and stock, "
+       "and WHS practices such as risk assessments and equipment checks.", "Workshop management:")
 bullet(" mentoring junior and new technicians, and breaking complex tasks into simple, achievable steps. "
        "I'm patient, encouraging and good at building confidence.", "Teaching and mentoring:")
 bullet(" carbon frame building, design and problem-solving, including Fusion 360 CAD and 3D printing (FDM, SLA, SLS). "
