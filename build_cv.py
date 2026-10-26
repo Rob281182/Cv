@@ -109,12 +109,13 @@ r.font.size = Pt(10)
 # ---------- Profile ----------
 heading("Profile")
 para(
-    "I've been fixing bikes since 2009, when I started as a mechanic at The Ride Cycles in Kew, and I've never really stopped. "
-    "Since 2016 I've travelled each year as a tour mechanic with Wide Open Road Cycling, and in 2020 I founded Heiden Cycle Works, "
-    "where I design and build my own carbon frames and look after bikes of every kind. Alongside the bikes, I've spent ten years "
-    "as a Prosthetist-Orthotist, a career built on making things by hand, running workshops, mentoring junior technicians and "
-    "explaining technical ideas in a way people can understand. What I enjoy most is passing on what I know, and I'd love to "
-    "bring that to PUSH!, helping young people build their own bikes and the confidence that comes with it.",
+    "I've been riding bikes since I was two, and at 14 I landed my first job building bikes at my local bike shop over the "
+    "summer holidays. I've worked as a mechanic ever since, from the end of high school and all through university. When I "
+    "started my career as a Prosthetist-Orthotist, I kept the bikes going, working on my own and travelling as a tour mechanic "
+    "with Wide Open Road Cycling in Europe, Japan and Australia. In 2020, during COVID, I started my own bike brand, Heiden "
+    "Cycle Works, designing and building custom bespoke bikes myself. I've also created and adapted bikes for people with "
+    "disabilities. What I enjoy most is passing on what I know, and I'd love to bring that to PUSH!, helping young people "
+    "build their own bikes and the confidence that comes with it.",
     after=4,
 )
 
@@ -122,14 +123,13 @@ para(
 heading("Key Skills")
 bullet(" full servicing, diagnosis and repair of road, mountain, hybrid, kids' and e-bikes; complete bike builds "
        "from the frame up, including custom frame building; brakes, gears, drivetrains, wheels, hubs and bearings.", "Bicycle mechanics:")
+bullet(" creating and adapting bikes for people with disabilities, drawing on my orthotics background.", "Adaptive bikes:")
 bullet(" inspecting and refurbishing second-hand bikes so they're safe and roadworthy, and making the most of "
        "donated and recycled parts.", "Safety checks and refurbishment:")
 bullet(" running workshops, including tool and equipment upkeep, parts inventory and ordering, "
        "workflow and workplace safety.", "Workshop management:")
 bullet(" mentoring junior and new technicians, and breaking complex tasks into simple, achievable steps. "
        "I'm patient, encouraging and good at building confidence.", "Teaching and mentoring:")
-bullet(" friendly, clear communicator. I've worked with clients and families of all ages, "
-       "backgrounds and cultures in Australia, Europe and Cambodia.", "Communication:")
 bullet(" carbon frame building, design and problem-solving, including Fusion 360 CAD and 3D printing (FDM, SLA, SLS). "
        "I love inventing, building and improving things.", "Making and fabrication:")
 
@@ -142,7 +142,7 @@ job("Founder / Frame Builder and Bicycle Technician", "Heiden Cycle Works, Brisb
     "Run every part of the business, including customer service, sourcing and ordering parts, workshop and tool upkeep, and accounts.",
 ])
 job("Travelling Tour Mechanic", "Wide Open Road Cycling", "2016 – Present (tours each year)", [
-    "Travel with the group on multi-day cycling tours each year and maintain every bike on the tour.",
+    "Travel with multi-day cycling tours in Europe, Japan and Australia each year and maintain every bike on the tour.",
     "Do daily safety checks, servicing and roadside repairs from a mobile workshop, often with limited tools and parts.",
     "Friendly, helpful point of contact for riders of all abilities, keeping them safe and riding.",
 ])
