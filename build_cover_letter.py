@@ -54,13 +54,13 @@ p = line("Wishart QLD 4122  •  0402 496 428  •  robert@heideman.com.au", siz
 bottom_border(p)
 
 line("26 October 2026", after=10)
-line("Hiring Team – PUSH! Program")
+line("Sarah White")
 line("Younity Community Services Ltd")
 line("Deception Bay QLD", after=12)
 line("Re: Bicycle Technician – PUSH! Program, Deception Bay", bold=True, after=10)
 
 body = [
-    "Dear PUSH! Hiring Team,",
+    "Dear Sarah,",
 
     "I'm excited to apply for the Bicycle Technician role with PUSH! Bikes have been a big part of my life for as long "
     "as I can remember, and so has sharing what I know about them. A program where young people build their own bike, "
