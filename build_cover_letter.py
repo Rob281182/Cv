@@ -64,10 +64,8 @@ body = [
     "Dear Sarah,",
 
     "I'm excited to apply for the Bicycle Technician role with PUSH! Bikes have been a big part of my life since I was "
-    "two, and so has sharing what I know about them. PUSH!'s results speak for themselves: more than 700 young people "
-    "reached, and an independent evaluation showing gains in skills, emotional regulation and positive behaviour. "
-    "Leading the technical side of a program where young people learn on the tools and ride away proud of what "
-    "they've built is exactly the work I'd love to do.",
+    "two, and so has sharing what I know about them. A program where young people learn on the tools and ride away "
+    "proud of what they've built is exactly the kind of work I'd love to be part of.",
 
     "I've worked as a bike mechanic for more than 15 years, starting in my local bike shop at 14 and then at The Ride "
     "Cycles in Kew. In 2020 I founded Heiden Cycle Works, where I design and build custom frames from carbon tubes and "
