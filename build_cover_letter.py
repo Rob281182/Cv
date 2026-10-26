@@ -53,7 +53,7 @@ p = line("Wishart QLD 4122  •  0402 496 428  •  robert@heideman.com.au", siz
          align=WD_ALIGN_PARAGRAPH.CENTER, after=14)
 bottom_border(p)
 
-line("25 October 2026", after=10)
+line("26 October 2026", after=10)
 line("Hiring Team – PUSH! Program")
 line("Younity Community Services Ltd")
 line("Deception Bay QLD", after=12)
@@ -87,7 +87,8 @@ body = [
     "development team to turn bike-building into fun, hands-on learning sessions.",
 
     "I hold a current Queensland Blue Card (I've had a Working with Children Check for over 10 years), a current NDIS "
-    "Worker Screening Check (Yellow Card) and a current Australian driver licence.",
+    "Worker Screening Check (Yellow Card) and a current Australian driver licence. I can commit three days a week to "
+    "PUSH! and could start from 22 November.",
 
     "Thank you for considering my application. I'd welcome the chance to chat about how I could contribute to PUSH!, "
     "and I'd be happy to bring along one of my frames to show you what I build.",
