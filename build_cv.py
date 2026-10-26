@@ -157,11 +157,13 @@ job("Volunteer Mechanic and Support Crew – Lesa Ashford", "Solo world-record a
 
 # ---------- Professional experience ----------
 heading("Professional Experience – Prosthetics and Orthotics")
-para("Ten years as a Prosthetist-Orthotist and technician in Australia, Sweden and Norway, building custom devices by hand.", italic=True, after=3)
-job("Sole Owner / Principal Orthotist", "Roam Orthotics", "Oct 2026 – Present")
-job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026", [
-    "Senior orthotic role delivering custom orthoses made with digital scanning and design.",
+job("Sole Owner / Principal Orthotist", "Roam Orthotics", "Oct 2026 – Present", [
+    "See participants for assessment, goal setting and treatment planning, liaising with carers and allied health.",
+    "Scan, model and create custom orthoses using CAD, 3D printing and traditional hand fabrication.",
+    "Fit and implement devices, train participants and carers in their use, and provide reviews and adjustments.",
+    "Run the whole practice: referrals, bookings, NDIS and funding reports, quotes and accounts.",
 ])
+job("Senior Orthotist", "Ability Made", "Jan 2026 – Sep 2026")
 job("Senior Prosthetist/Orthotist", "Princess Alexandra Hospital, Woolloongabba QLD", "May 2025 – Mar 2026", [
     "Manage complex inpatient and outpatient cases as part of a multidisciplinary team, and lead quality assurance projects.",
 ])
