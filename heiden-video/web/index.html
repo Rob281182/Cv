@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heiden Cycle Works</title>
+<meta name="description" content="Custom carbon bicycles designed and built by hand in Brisbane. Carbon tubes, 3D-printed lugs, made to measure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Platypi:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0a0c; --text:#e8e2d8; --muted:#a8a8b3; --accent:#c9742b; /* swap for the Heiden brand colour */
+    --font-head:"Bricolage Grotesque","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+    --font-body:Platypi,Georgia,serif;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-font-smoothing:antialiased}
+  body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.6}
+
+  /* ---------- header ---------- */
+  .site-header{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+    padding:18px 28px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0))}
+  .site-header img{height:30px;width:auto}
+  .site-header nav{display:flex;gap:26px;font-family:var(--font-head);font-weight:500;font-size:17px}
+  .site-header a{color:#fff;text-decoration:none;opacity:.92}
+  .site-header a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px}
+  @media (max-width:767px){.site-header nav{display:none}}
+
+  /* ---------- video intro (the Simpatico-style block) ---------- */
+  .video-intro{position:relative;height:130svh;background:#000}
+  .video-intro__sticky{position:sticky;top:0;height:100svh;overflow:hidden;background:#000}
+  .video-intro__media,.video-intro__poster,.video-intro__video,.video-intro__shade,.video-intro__content{position:absolute;inset:0}
+  .video-intro__poster,.video-intro__video{width:100%;height:100%;object-fit:cover;object-position:center}
+  .video-intro__video{opacity:0;transition:opacity .3s ease}
+  .video-intro.is-video-ready .video-intro__video{opacity:1}
+  .video-intro__shade{z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.04) 44%,rgba(0,0,0,.42))}
+  .video-intro__content{z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    padding:0 20px;pointer-events:none}
+  .video-intro__logo{width:clamp(220px,34vw,520px);height:auto;filter:drop-shadow(0 3px 18px rgba(0,0,0,.55))}
+  .video-intro__title{margin-top:clamp(18px,3vh,36px);font-family:var(--font-head);font-weight:700;font-size:clamp(28px,4.2vw,56px);
+    line-height:1.05;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.5)}
+  .video-intro__subtitle{margin-top:14px;max-width:46ch;font-size:clamp(15px,1.25vw,19px);color:rgba(255,255,255,.9);text-shadow:0 1px 10px rgba(0,0,0,.6)}
+  .video-intro__control{position:absolute;right:20px;bottom:20px;z-index:4;width:44px;height:44px;border-radius:8px;border:1px solid rgba(255,255,255,.35);
+    background:rgba(0,0,0,.45);color:#fff;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(4px)}
+  .video-intro__control:hover{border-color:#fff}
+  .video-intro__control svg{width:16px;height:16px;fill:currentColor}
+  .video-intro__control .icon-play{display:none}
+  .video-intro__control[data-state="paused"] .icon-pause{display:none}
+  .video-intro__control[data-state="paused"] .icon-play{display:block}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  @media (prefers-reduced-motion:reduce){
+    .video-intro{height:100svh}.video-intro__sticky{position:relative}
+    .video-intro__video,.video-intro__control{display:none}
+  }
+
+  /* ---------- what follows the intro ---------- */
+  .intro-next{position:relative;z-index:5;background:var(--bg);padding:clamp(56px,9vw,120px) 20px}
+  .intro-next__inner{max-width:900px;margin:0 auto;text-align:center}
+  .intro-next h2{font-family:var(--font-head);font-weight:700;font-size:clamp(26px,3.4vw,44px);line-height:1.1;color:#fff}
+  .intro-next p{margin-top:18px;color:var(--muted);font-size:clamp(16px,1.3vw,19px)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;margin-top:30px;padding:14px 28px;border-radius:6px;border:2px solid var(--accent);
+    background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;text-transform:uppercase;letter-spacing:.02em;text-decoration:none}
+  .btn:hover{background:transparent;color:var(--accent)}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#"><img src="../assets/heiden-wordmark.png" alt="Heiden Cycle Works"></a>
+  <nav><a href="#bikes">Bikes</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<!-- Full-screen, muted, looping intro. Mirrors the Simpatico Bikes homepage: the video sits in a
+     sticky frame slightly taller than the viewport so the next section scrolls up over it. -->
+<section class="video-intro" aria-label="Heiden Cycle Works introduction"
+         data-desktop-mp4="../out/heiden-home-intro-desktop.mp4"
+         data-desktop-webm="../out/heiden-home-intro-desktop.webm"
+         data-mobile-mp4="../out/heiden-home-intro-mobile.mp4"
+         data-mobile-webm="../out/heiden-home-intro-mobile.webm">
+  <div class="video-intro__sticky">
+    <div class="video-intro__media">
+      <picture>
+        <source media="(max-width:767px)" srcset="../out/heiden-home-intro-mobile-poster.jpg">
+        <img class="video-intro__poster" src="../out/heiden-home-intro-desktop-poster.jpg" alt="" aria-hidden="true" fetchpriority="high">
+      </picture>
+      <video class="video-intro__video" muted loop playsinline preload="auto" aria-hidden="true"></video>
+      <div class="video-intro__shade" aria-hidden="true"></div>
+    </div>
+
+    <div class="video-intro__content">
+      <img class="video-intro__logo" src="../assets/heiden-wordmark.png" alt="Heiden Cycle Works" width="2400" height="760">
+      <h1 class="video-intro__title">Custom carbon bikes, built in Brisbane</h1>
+      <p class="video-intro__subtitle">Carbon tubes and 3D-printed lugs, designed and made to measure by hand.</p>
+    </div>
+
+    <button class="video-intro__control" type="button" data-state="playing" aria-pressed="true" aria-label="Pause background video">
+      <svg class="icon-pause" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="1" width="4" height="14" rx="1"/><rect x="10" y="1" width="4" height="14" rx="1"/></svg>
+      <svg class="icon-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
+    </button>
+  </div>
+</section>
+
+<section class="intro-next" id="bikes">
+  <div class="intro-next__inner">
+    <h2>Every Heiden starts with the rider</h2>
+    <p>Geometry, fit and finish are worked out with you, then the frame is built from carbon tubes joined with lugs designed in-house and 3D printed. One bike at a time, in Brisbane.</p>
+    <a class="btn" href="#contact">Start a build</a>
+  </div>
+</section>
+
+<script>
+(function(){
+  var section=document.querySelector('.video-intro');
+  var video=section.querySelector('video');
+  var btn=section.querySelector('.video-intro__control');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+  if(reduce.matches){btn.hidden=true;return;}
+
+  // Pick the vertical cut on phones, the widescreen cut elsewhere; webm first, mp4 fallback.
+  var mobile=window.matchMedia('(max-width: 767px)').matches;
+  var d=section.dataset;
+  var webm=mobile?d.mobileWebm:d.desktopWebm, mp4=mobile?d.mobileMp4:d.desktopMp4;
+  var canWebm=video.canPlayType('video/webm; codecs="vp9"');
+  video.src=(canWebm&&webm)?webm:mp4;
+
+  function ready(){section.classList.add('is-video-ready');}
+  video.addEventListener('playing',ready,{once:true});
+  video.addEventListener('loadeddata',function(){ if(video.readyState>=2) ready(); },{once:true});
+  var p=video.play(); if(p&&p.catch){p.catch(function(){ /* autoplay blocked: poster stays */ });}
+
+  // Pause the loop while it is scrolled out of view, like the reference site does.
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(btn.dataset.state!=='playing') return;
+        if(e.isIntersecting){ video.play().catch(function(){}); } else { video.pause(); }
+      });
+    },{threshold:0.05}).observe(section);
+  }
+
+  btn.addEventListener('click',function(){
+    var playing=btn.dataset.state==='playing';
+    if(playing){video.pause();}else{video.play().catch(function(){});}
+    btn.dataset.state=playing?'paused':'playing';
+    btn.setAttribute('aria-pressed',String(!playing));
+    btn.setAttribute('aria-label',(playing?'Play':'Pause')+' background video');
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Heiden Cycle Works — homepage intro loop, shot list
+# Mirrors the structure of the Simpatico Bikes intro (9.6 s, 25 fps, muted, loops).
+# Format: id | clip stem | start offset in source (s) | duration (s) | description
+# Drop your footage into clips/ named with the stem, any extension (mp4, mov, jpg, png).
+# A still image gets a slow push-in automatically. A missing clip gets a labelled placeholder.
+01 | 01-studio-profile    | 0.0 | 1.20 | Studio. Full side profile of a Heiden bike on black, one hard light from behind-left so the tubes rim-light. Static or very slow drift.
+02 | 02-studio-downtube   | 0.0 | 1.00 | Studio. Front triangle and down tube, 3D-printed lug catching the light. Slow push-in or slide.
+03 | 03-studio-dropout    | 0.0 | 0.90 | Studio. Very low angle, chainstay, dropout and tyre tread. Shallow focus.
+04 | 04-studio-cockpit    | 0.0 | 0.90 | Studio. From the front, bars and head tube, light coming through the frame. Slow drift.
+05 | 05-silhouette        | 0.0 | 1.00 | Rider on the bike, in the drops, silhouetted against one strongly lit coloured wall or backdrop. Slow tilt or push.
+06 | 06-ride-wide         | 0.0 | 1.00 | Outdoors. Wide, camera low to the ground on gravel or forest road, rider passes left to right at speed.
+07 | 07-ride-pan          | 0.0 | 1.00 | Outdoors. Same pass, tighter, whip-pan following the rider with motion blur in the trees.
+08 | 08-rider-portrait    | 0.0 | 1.00 | Outdoors. Low angle, rider stopped under trees, adjusting glasses or drinking, bike across frame. Slow push-in.
+09 | 09-ride-towards      | 0.0 | 1.00 | Outdoors. Camera on the ground, rider rolling towards camera over a rough rutted track.
+10 | 10-wheel-pass        | 0.0 | 0.64 | Outdoors. Front wheel passes right past the lens over dirt, fills the frame.
