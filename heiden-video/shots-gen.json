@@ -1,0 +1,31 @@
+{
+  "_comment": "Generation plan for the Heiden intro. BIKE is substituted into every prompt. Each shot generates a 4 s clip; build.sh uses about one second of each (start offsets in shotlist.txt).",
+  "bike": "a matte black carbon-fibre gravel bike with round carbon tubes joined by distinctive dark-grey 3D-printed metal lugs that show a faint layered print texture at every tube junction, flared drop handlebars, deep-section black wheels, tan-wall gravel tyres, no logos, no text, no decals",
+  "style_studio": "Cinematic product film, low key, pure black background, one hard light from behind and to one side, thin rim highlights, deep shadows, shallow depth of field, 35mm film grain, desaturated, no people, no text, no captions.",
+  "style_ride": "Cinematic, Australian eucalypt bushland, gravel forest road, dusk, overcast soft light, tall gum trees, ferns, desaturated muted greens, 35mm film grain, shallow depth of field, no text, no captions.",
+  "rider": "a cyclist in all-black kit, black helmet and dark sunglasses",
+  "reference_image": {
+    "endpoint": "higgsfield-ai/soul/v2/standard",
+    "body": {
+      "prompt": "Studio product photograph, full side profile of {BIKE}, standing alone on dark polished concrete against a pure black background, one hard light from behind-left rimming the top tube, seat stays and rims in thin white highlights, everything else falling to black, cinematic, low key, 35mm film grain, no people, no text.",
+      "aspect_ratio": "16:9",
+      "resolution": "1080p",
+      "enhance_prompt": false,
+      "batch_size": 1
+    }
+  },
+  "video_endpoint": "bytedance/seedance-2.5/reference-to-video",
+  "video_defaults": { "duration": 4, "resolution": "1080p", "aspect_ratio": "16:9", "generate_audio": false, "bitrate_mode": "high" },
+  "shots": [
+    { "stem": "01-studio-profile",  "prompt": "{STUDIO} Full side profile of {BIKE} standing alone on dark polished concrete. Camera on a tripod, very slow push-in toward the frame. The rim light traces the tubes and wheel rims; the background stays black." },
+    { "stem": "02-studio-downtube", "prompt": "{STUDIO} Macro detail of {BIKE}: the camera slides slowly along the down tube toward the head tube, where a dark-grey 3D-printed lug joins the carbon tubes. The hard light catches the lug's layered texture and the carbon weave. Background out of focus and black." },
+    { "stem": "03-studio-dropout",  "prompt": "{STUDIO} Extreme low angle at floor level on {BIKE}: rear dropout, chainstay and the tread of a tan-wall gravel tyre. The light skims across the tyre knobs. Slow focus pull from the tyre to the dropout." },
+    { "stem": "04-studio-cockpit",  "prompt": "{STUDIO} Front-on view of {BIKE}: flared drop bars and head tube in silhouette, the hard light pouring through the frame triangle from behind, lens flare kept subtle. Camera drifts slowly sideways." },
+    { "stem": "05-silhouette",      "prompt": "Cinematic. {RIDER} in the drops on {BIKE}, seen as a pure black silhouette against a studio wall flooded with deep amber-orange light, light haze in the air. The camera tilts slowly up from the front wheel to the rider's helmet. 35mm film grain, no text." },
+    { "stem": "06-ride-wide",       "prompt": "{RIDE} Wide shot, camera locked off a few centimetres above the gravel surface of a forest road. {RIDER} on {BIKE} rides past from left to right at speed, slight motion blur, a little dust lifting off the gravel." },
+    { "stem": "07-ride-pan",        "prompt": "{RIDE} Camera low to the ground, a fast whip-pan following {RIDER} on {BIKE} as they pass; the gum tree trunks smear into horizontal motion blur, the rider stays sharp." },
+    { "stem": "08-rider-portrait",  "prompt": "{RIDE} Low angle, {RIDER} stopped under tall gum trees, straddling {BIKE}, pushing their sunglasses up and looking off camera, ferns in the foreground. Slow push-in." },
+    { "stem": "09-ride-towards",    "prompt": "{RIDE} Camera resting on the ground on a rutted dirt track. {RIDER} on {BIKE} rides directly toward the camera over the rough ground, the bike bouncing, dust in the air." },
+    { "stem": "10-wheel-pass",      "prompt": "{RIDE} Extreme close-up at ground level: the front wheel and tan-wall tyre of {BIKE} roll past within a hand's width of the lens over dirt and leaf litter, filling the frame with motion blur." }
+  ]
+}
